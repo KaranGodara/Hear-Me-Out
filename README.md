@@ -16,11 +16,24 @@ I used **OpenCV** to collect my dataset using my laptop's webcam and labelled th
 - livelong
 
 Few of the images from my dataset are :
-![thankyou 3bd003de-0a96-11ed-94b5-fa34836c0e44](https://user-images.githubusercontent.com/94215375/193784527-8820548b-03dd-47f0-b8d4-8f0ef4c64021.jpg)
-![thumbsdown 296ce078-0a95-11ed-94b5-fa34836c0e44](https://user-images.githubusercontent.com/94215375/193784647-9dbd5179-7433-4cbf-a536-a907e4970361.jpg)
-![thumbsup 58b2d1c6-0a95-11ed-94b5-fa34836c0e44](https://user-images.githubusercontent.com/94215375/193784724-006bbaee-b46a-4235-afc7-b42c6caa8965.jpg)
-![livelong 3ae3d94c-0a95-11ed-94b5-fa34836c0e44](https://user-images.githubusercontent.com/94215375/193784849-c8dc9fc1-f6c3-45d5-855a-6e73739551b0.jpg)
-
+<table>
+  <tr>
+    <td align="center"><img src="Readme_images/livelong.3ae3d94c-0a95-11ed-94b5-fa34836c0e44.jpg" width="500"></td>
+    <td align="center"><img src="Readme_images/thankyou.3bd003de-0a96-11ed-94b5-fa34836c0e44.jpg" width="500"></td>
+  </tr>
+  <tr>
+    <td align="center">Live Long Sign</td>
+    <td align="center">Thank You Sign</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="Readme_images/thumbsdown.60bf65a0-0a95-11ed-94b5-fa34836c0e44.jpg" width="500"></td>
+    <td align="center"><img src="Readme_images/thumbsup.90004384-0a95-11ed-94b5-fa34836c0e44.jpg" width="500"></td>
+  </tr>
+  <tr>
+    <td align="center">Thumbs Down Sign</td>
+    <td align="center">Thumbs Up Sign</td>
+  </tr>
+</table>
 
 ## Results
 After collecting a small bunch of images from all the classes I trained my model and then tested it for both real-time video and also on the collected test cases. 
