@@ -38,7 +38,24 @@ Few of the images from my dataset are :
 ## Results
 After collecting a small bunch of images from all the classes I trained my model and then tested it for both real-time video and also on the collected test cases. 
 Few images showing my model prediction are as following:
-
+<table>
+  <tr>
+    <td align="center"><img src="Readme_images/Screenshot 2022-10-04 at 4.15.05 PM.png" width="500"></td>
+    <td align="center"><img src="Readme_images/Screenshot 2022-10-04 at 4.15.15 PM.png" width="500"></td>
+  </tr>
+  <tr>
+    <td align="center">Prediction of Live Long Sign</td>
+    <td align="center">Prediction of Thank You Sign</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="Readme_images/Screenshot 2022-10-04 at 4.15.28 PM.png" width="500"></td>
+    <td align="center"><img src="Readme_images/Screenshot 2022-10-04 at 4.15.38 PM.png" width="500"></td>
+  </tr>
+  <tr>
+    <td align="center">Prediction of Thumbs Down Sign</td>
+    <td align="center">Prediction of Thumbs Up Sign</td>
+  </tr>
+</table>
 
 ## Learnings
 In the initial stages of one's learning of Computer Vision, one studies/hears a lot that it's important to have a complex dataset or in simpler terms data having varied background, illumination, relative size etc. I too got to know the same and hence I wanted to see how bad a model will perform given a not so good dataset. So before producing the above results, I also experiented by giving images onyl having white background (my hostel room's walls :)) and saw how badly my model performs for data not having white background. I also stark improvement in my model's performance when I changed my dataset to contains images having different background, lighting etc.
